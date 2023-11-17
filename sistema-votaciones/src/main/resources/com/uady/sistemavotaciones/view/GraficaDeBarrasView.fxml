@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uady.sistemavotaciones.controller.GraficaDeBarrasController">
+    <Text fx:id="graficaDeBarrasTexto" layoutX="311.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gráfica de Barras">
+      <font>
+         <Font name="Work Sans Medium" size="18.0" />
+      </font></Text>
+   <BarChart fx:id="barChart" layoutX="140.0" layoutY="49.0" title="Votaciones">
+     <xAxis>
+       <CategoryAxis side="BOTTOM">
+            <tickLabelFont>
+               <Font name="Work Sans Medium" size="8.0" />
+            </tickLabelFont>
+         </CategoryAxis>
+     </xAxis>
+     <yAxis>
+       <NumberAxis label="Cantidad de votos" side="LEFT" />
+     </yAxis>
+   </BarChart>
+</AnchorPane>

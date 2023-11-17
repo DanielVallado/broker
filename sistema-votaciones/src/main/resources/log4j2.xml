@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %C{1}.%M:%L %-5level - %msg%n"/>
+        </Console>
+        <File name="FileAppender" fileName="logs/sistema-votaciones.log">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %C{1}.%M:%L %-5level - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="ConsoleAppender" level="ERROR"/>
+            <AppenderRef ref="FileAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

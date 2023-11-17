@@ -1,0 +1,103 @@
+Se registró un voto para Windows 2023-11-17 02:28:00
+Se registró un voto para Windows 2023-11-17 02:28:37
+Se registró un voto para Windows 2023-11-17 02:30:27
+Se registró un voto para Windows 2023-11-17 02:31:53
+Se registró un voto para Windows 2023-11-17 02:32:05
+Se inicializó el controlador de votaciones 2023-11-17 02:36:46
+Se actualizaron las gráficas 2023-11-17 02:36:46
+Voto por Windows 2023-11-17 02:36:50
+Se actualizaron las gráficas 2023-11-17 02:36:50
+Voto por Windows 2023-11-17 02:36:51
+Se actualizaron las gráficas 2023-11-17 02:36:51
+Voto por MacOs 2023-11-17 02:36:52
+Se actualizaron las gráficas 2023-11-17 02:36:52
+Voto por MacOs 2023-11-17 02:36:53
+Se actualizaron las gráficas 2023-11-17 02:36:53
+Voto por MacOs 2023-11-17 02:36:53
+Se actualizaron las gráficas 2023-11-17 02:36:53
+Se inicializó el controlador de votaciones 2023-11-17 02:40:19
+Se actualizaron las gráficas 2023-11-17 02:40:19
+Voto por Windows 2023-11-17 02:40:24
+Se actualizaron las gráficas 2023-11-17 02:40:24
+Voto por Windows 2023-11-17 02:40:24
+Se actualizaron las gráficas 2023-11-17 02:40:24
+Voto por Windows 2023-11-17 02:40:24
+Se actualizaron las gráficas 2023-11-17 02:40:24
+Voto por Windows 2023-11-17 02:40:25
+Se actualizaron las gráficas 2023-11-17 02:40:25
+Voto por Linux 2023-11-17 02:40:26
+Se actualizaron las gráficas 2023-11-17 02:40:26
+Voto por Linux 2023-11-17 02:40:26
+Se actualizaron las gráficas 2023-11-17 02:40:26
+Voto por Linux 2023-11-17 02:40:26
+Se actualizaron las gráficas 2023-11-17 02:40:26
+Voto por Linux 2023-11-17 02:40:26
+Se actualizaron las gráficas 2023-11-17 02:40:26
+Voto por Linux 2023-11-17 02:40:26
+Se actualizaron las gráficas 2023-11-17 02:40:27
+Voto por Linux 2023-11-17 02:40:27
+Se actualizaron las gráficas 2023-11-17 02:40:27
+Voto por Linux 2023-11-17 02:40:27
+Se actualizaron las gráficas 2023-11-17 02:40:27
+Voto por Linux 2023-11-17 02:40:27
+Se actualizaron las gráficas 2023-11-17 02:40:27
+Voto por Linux 2023-11-17 02:40:27
+Se actualizaron las gráficas 2023-11-17 02:40:27
+Voto por Linux 2023-11-17 02:40:28
+Se actualizaron las gráficas 2023-11-17 02:40:28
+Ser vieron las estadísticas 2023-11-17 02:40:28
+Se mostró gráfica de Sistema de Votaciones | Gráfica de Barras 2023-11-17 02:40:28
+Se actualizaron las gráficas 2023-11-17 02:40:28
+Se mostró gráfica de Sistema de Votaciones | Gráfica de Pastel 2023-11-17 02:40:29
+Se actualizaron las gráficas 2023-11-17 02:40:29
+Voto por MacOs 2023-11-17 02:40:35
+Se actualizaron las gráficas 2023-11-17 02:40:35
+Voto por MacOs 2023-11-17 02:40:35
+Se actualizaron las gráficas 2023-11-17 02:40:35
+Voto por MacOs 2023-11-17 02:40:37
+Se actualizaron las gráficas 2023-11-17 02:40:37
+Se inicializó el controlador de votaciones 2023-11-17 02:43:44
+Se actualizaron las gráficas 2023-11-17 02:43:45
+Voto por MacOs 2023-11-17 02:43:47
+Se actualizaron las gráficas 2023-11-17 02:43:47
+Voto por MacOs 2023-11-17 02:43:47
+Se actualizaron las gráficas 2023-11-17 02:43:47
+Voto por MacOs 2023-11-17 02:43:47
+Se actualizaron las gráficas 2023-11-17 02:43:47
+Voto por MacOs 2023-11-17 02:43:48
+Se actualizaron las gráficas 2023-11-17 02:43:48
+Voto por MacOs 2023-11-17 02:43:48
+Se actualizaron las gráficas 2023-11-17 02:43:48
+Voto por Linux 2023-11-17 02:43:50
+Se actualizaron las gráficas 2023-11-17 02:43:50
+Voto por Linux 2023-11-17 02:43:50
+Se actualizaron las gráficas 2023-11-17 02:43:50
+Voto por Linux 2023-11-17 02:43:50
+Se actualizaron las gráficas 2023-11-17 02:43:50
+Voto por Linux 2023-11-17 02:43:51
+Se actualizaron las gráficas 2023-11-17 02:43:51
+Voto por Linux 2023-11-17 02:43:51
+Se actualizaron las gráficas 2023-11-17 02:43:51
+Se inicializó el controlador de votaciones 2023-11-17 03:02:19
+Se actualizaron las gráficas 2023-11-17 03:02:19
+Voto por Windows 2023-11-17 03:02:21
+Se actualizaron las gráficas 2023-11-17 03:02:21
+Voto por Windows 2023-11-17 03:02:22
+Se actualizaron las gráficas 2023-11-17 03:02:22
+Voto por Windows 2023-11-17 03:02:22
+Se actualizaron las gráficas 2023-11-17 03:02:22
+Voto por Windows 2023-11-17 03:02:34
+Se actualizaron las gráficas 2023-11-17 03:02:34
+Ser vieron las estadísticas 2023-11-17 03:02:39
+Se mostró gráfica de Sistema de Votaciones | Gráfica de Barras 2023-11-17 03:02:39
+Se actualizaron las gráficas 2023-11-17 03:02:39
+Se mostró gráfica de Sistema de Votaciones | Gráfica de Pastel 2023-11-17 03:02:39
+Se actualizaron las gráficas 2023-11-17 03:02:39
+Se inicializó el controlador de votaciones 2023-11-17 03:57:22
+Se actualizaron las gráficas 2023-11-17 03:57:22
+Voto por Windows 2023-11-17 03:57:25
+Se actualizaron las gráficas 2023-11-17 03:57:25
+Voto por Windows 2023-11-17 03:57:25
+Se actualizaron las gráficas 2023-11-17 03:57:26
+Se inicializó el controlador de votaciones 2023-11-17 03:57:34
+Se actualizaron las gráficas 2023-11-17 03:57:34
