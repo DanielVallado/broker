@@ -17,17 +17,32 @@ import java.util.List;
 
 public class Client {
 
-    private final String serverAddress;
-    private final int serverPort;
+    private static Client client;
+    private final String brokerIp;
+    private final int brokerPort;
 
-    public Client(String serverAddress, int serverPort) {
-        this.serverAddress = serverAddress;
-        this.serverPort = serverPort;
+    public static void setInstance(String brokerIp) {
+        if (client == null) {
+            String[] parts = brokerIp.split(":");
+            String ip = parts[0];
+            int port = Integer.parseInt(parts[1]);
+            Client.client = new Client(port, ip);
+        }
+    }
+
+    public static Client getInstance() {
+        if (client == null)
+            return new Client(90, "127.0.0.1");
+        return client;
+    }
+
+    private Client(int brokerPort, String brokerIp) {
+        this.brokerPort = brokerPort;
+        this.brokerIp = brokerIp;
     }
 
     public String sendJson(JsonObject json) {
-
-        try (Socket socket = new Socket(serverAddress, serverPort);
+        try (Socket socket = new Socket(brokerIp, brokerPort);
              BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
              PrintWriter out = new PrintWriter(socket.getOutputStream(), true)) {
 
@@ -114,7 +129,7 @@ public class Client {
         sendJson(jsonObject);
     }
 
-    public void listarServidores() {
+    public String listarServidores() {
         String message = """
             {
                 "servicio": "listar",
@@ -122,10 +137,10 @@ public class Client {
             }
             """;
         JsonObject jsonObject = JsonParser.parseString(message).getAsJsonObject();
-        sendJson(jsonObject);
+        return sendJson(jsonObject);
     }
 
-    public void listarServidores(String serviceName) {
+    public String listarServidores(String serviceName) {
         String message = """
             {
                 "servicio": "listar",
@@ -135,7 +150,7 @@ public class Client {
             }
             """.formatted(serviceName);
         JsonObject jsonObject = JsonParser.parseString(message).getAsJsonObject();
-        sendJson(jsonObject);
+        return sendJson(jsonObject);
     }
 
     public int contarVotos(String nameProducto) {

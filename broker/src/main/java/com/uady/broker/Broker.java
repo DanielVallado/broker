@@ -17,7 +17,7 @@ public class Broker {
             serverSocket = new ServerSocket(port);
             executorService = Executors.newFixedThreadPool(maxThreads);
         } catch (IOException e) {
-            System.out.println("Error al crear el socket del servidor.");
+            System.out.println("Error al crear el socket del broker.");
         }
     }
 

@@ -20,7 +20,7 @@ public class MyFileHandler {
             List<String> lines = Files.readAllLines(Paths.get(filePath));
             linesFile.addAll(lines);
         } catch (IOException ex) {
-            log.error("Error reading file");
+            log.error("Error reading file {}: {}", filePath,ex.getMessage());
             return null;
         }
 
@@ -32,7 +32,7 @@ public class MyFileHandler {
             writer.write(line);
             writer.newLine();
         } catch (IOException ex) {
-            log.error("Error al escribir en el archivo: {}", ex.getMessage());
+            log.error("Error writing file: {}", ex.getMessage());
         }
     }
 

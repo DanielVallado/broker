@@ -40,7 +40,7 @@ public class VotacionesController implements Initializable {
         this.graficaStages = new HashMap<>();
         this.productoContadorMap = new HashMap<>();
         this.controladoresGraficas = new ArrayList<>();
-        this.client = new Client("127.0.0.1", 90);
+        this.client = Client.getInstance();
         this.productosList = client.obtenerProductos();
     }
 

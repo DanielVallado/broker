@@ -93,8 +93,7 @@ public class ConnectionHandler implements Runnable {
             return null;
         }
 
-        // Service service = services.get((int) (Math.random() * services.size())); // Obtener un servidor aleatorio
-        Server server = servers.get(0);
+        Server server = servers.get((int) (Math.random() * servers.size())); // Obtener un servidor aleatorio
         String ip = server.getIp();
         int port = server.getPort();
 

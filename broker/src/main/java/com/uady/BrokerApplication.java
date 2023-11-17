@@ -15,7 +15,7 @@ public class BrokerApplication {
         }
 
         if (port == 0) {
-            port = 91;
+            port = 90;
         }
 
         final int MAX_THREADS = 10;
