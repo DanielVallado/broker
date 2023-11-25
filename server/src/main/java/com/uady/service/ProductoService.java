@@ -14,7 +14,7 @@ import java.util.List;
 public class ProductoService {
 
     public List<Producto> obtenerProductos() {
-        List<String> nombresProductos = MyFileHandler.readFile("C:\\Users\\danie\\OneDrive - Universidad Autonoma de Yucatan\\LIS\\LIS - Quinto Semestre\\Aquitectura de Software\\ADA 9 - Broker\\server\\src\\main\\java\\com\\uady\\data\\productos.txt");
+        List<String> nombresProductos = MyFileHandler.readFile("data/productos.txt");
         if (nombresProductos == null){
             log.error("No hay productos");
             System.exit(0);
@@ -22,7 +22,7 @@ public class ProductoService {
 
         List<Producto> productos = new ArrayList<>();
         for (String nombre : nombresProductos) {
-            String archivoPath = "C:\\Users\\danie\\OneDrive - Universidad Autonoma de Yucatan\\LIS\\LIS - Quinto Semestre\\Aquitectura de Software\\ADA 9 - Broker\\server\\src\\main\\java\\com\\uady\\data\\%s.txt".formatted(nombre);
+            String archivoPath = "data/%s.txt".formatted(nombre);
             productos.add(new Producto(nombre, 0, archivoPath));
         }
 

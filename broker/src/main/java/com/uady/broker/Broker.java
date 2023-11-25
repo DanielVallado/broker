@@ -51,7 +51,7 @@ public class Broker {
     }
 
     private void listenForCommands() {
-        System.out.println("¡Escribe \"stop\" para detener el broker!");
+        System.out.print("Escribe \"stop\" para detener el broker: ");
         Scanner scanner = new Scanner(System.in);
         while (true) {
             String command = scanner.nextLine().trim().toLowerCase();

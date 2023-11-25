@@ -46,7 +46,7 @@ public class VotacionesController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        client.log("Se inicializó el controlador de votaciones");
+        client.log("Se inicializo el controlador de votaciones");
         colocarVotos();
         int row = 0, col = 0;
         for (Producto producto : productosList) {
@@ -84,18 +84,18 @@ public class VotacionesController implements Initializable {
 
     @FXML
     public void verEstadisticas() {
-        client.log("Ser vieron las estadísticas");
+        client.log("Ser vieron las estadisticas");
         String graficaBarrasPath = "/com/uady/sistemavotaciones/view/GraficaDeBarrasView.fxml";
-        String tituloGraficaBarras = "Sistema de Votaciones | Gráfica de Barras";
+        String tituloGraficaBarras = "Sistema de Votaciones | Grafica de Barras";
         mostrarGrafica(Util.obtenerPath(graficaBarrasPath), tituloGraficaBarras);
 
         String graficaPastelPath = "/com/uady/sistemavotaciones/view/GraficaDePastelView.fxml";
-        String tituloGraficaPastel = "Sistema de Votaciones | Gráfica de Pastel";
+        String tituloGraficaPastel = "Sistema de Votaciones | Grafica de Pastel";
         mostrarGrafica(Util.obtenerPath(graficaPastelPath), tituloGraficaPastel);
     }
 
     private void mostrarGrafica(URL filePath, String titulo) {
-        client.log("Se mostró gráfica de " + titulo);
+        client.log("Se mostro grafica de " + titulo);
         if (!graficaStages.containsKey(titulo)) {
             FXMLLoader fxmlLoader = new FXMLLoader(filePath);
             crearScene(fxmlLoader, titulo);
@@ -145,7 +145,7 @@ public class VotacionesController implements Initializable {
     }
 
     private void actualizarGraficas() {
-        client.log("Se actualizaron las gráficas");
+        client.log("Se actualizaron las graficas");
         controladoresGraficas.stream()
                 .filter(Objects::nonNull)
                 .forEach(controller -> controller.actualizarDatos(productosList));

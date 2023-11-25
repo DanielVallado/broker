@@ -68,3 +68,30 @@ Voto por MacOs 2023-11-17 13:27:05
 Se actualizaron las gráficas 2023-11-17 13:27:05
 Se inicializó el controlador de votaciones 2023-11-17 13:27:15
 Se actualizaron las gráficas 2023-11-17 13:27:15
+Se inicializo el controlador de votaciones 2023-11-24 18:28:17
+Se actualizaron las graficas 2023-11-24 18:28:17
+Voto por Windows 2023-11-24 18:28:21
+Se actualizaron las graficas 2023-11-24 18:28:21
+Voto por Windows 2023-11-24 18:28:23
+Se actualizaron las graficas 2023-11-24 18:28:23
+Voto por Windows 2023-11-24 18:28:24
+Se actualizaron las graficas 2023-11-24 18:28:24
+Voto por Windows 2023-11-24 18:28:24
+Se actualizaron las graficas 2023-11-24 18:28:24
+Se inicializo el controlador de votaciones 2023-11-24 18:33:56
+Se actualizaron las graficas 2023-11-24 18:33:56
+Voto por Windows 2023-11-24 18:33:57
+Se actualizaron las graficas 2023-11-24 18:33:57
+Voto por Windows 2023-11-24 18:33:59
+Se actualizaron las graficas 2023-11-24 18:33:59
+Voto por Windows 2023-11-24 18:33:59
+Se actualizaron las graficas 2023-11-24 18:33:59
+Voto por Windows 2023-11-24 18:34:00
+Se actualizaron las graficas 2023-11-24 18:34:00
+Voto por Windows 2023-11-24 18:34:00
+Se actualizaron las graficas 2023-11-24 18:34:00
+Ser vieron las estadisticas 2023-11-24 18:34:11
+Se mostro grafica de Sistema de Votaciones | Grafica de Barras 2023-11-24 18:34:11
+Se actualizaron las graficas 2023-11-24 18:34:11
+Se mostro grafica de Sistema de Votaciones | Grafica de Pastel 2023-11-24 18:34:11
+Se actualizaron las graficas 2023-11-24 18:34:11

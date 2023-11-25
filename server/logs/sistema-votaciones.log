@@ -124,3 +124,12 @@
 13:27:04.805 [pool-1-thread-4] ProductoService.votar:37 INFO  - Voto registrado
 13:27:04.957 [pool-1-thread-10] ProductoService.votar:37 INFO  - Voto registrado
 13:27:05.172 [pool-1-thread-6] ProductoService.votar:37 INFO  - Voto registrado
+18:28:21.480 [pool-1-thread-7] ProductoService.votar:37 INFO  - Voto registrado
+18:28:23.667 [pool-1-thread-3] ProductoService.votar:37 INFO  - Voto registrado
+18:28:24.089 [pool-1-thread-9] ProductoService.votar:37 INFO  - Voto registrado
+18:28:24.778 [pool-1-thread-5] ProductoService.votar:37 INFO  - Voto registrado
+18:33:57.902 [pool-1-thread-7] ProductoService.votar:37 INFO  - Voto registrado
+18:33:59.044 [pool-1-thread-3] ProductoService.votar:37 INFO  - Voto registrado
+18:33:59.269 [pool-1-thread-9] ProductoService.votar:37 INFO  - Voto registrado
+18:34:00.114 [pool-1-thread-5] ProductoService.votar:37 INFO  - Voto registrado
+18:34:00.330 [pool-1-thread-1] ProductoService.votar:37 INFO  - Voto registrado

@@ -9,6 +9,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Scanner;
 
 public class SistemaVotaciones extends Application {
 
@@ -25,14 +26,13 @@ public class SistemaVotaciones extends Application {
     }
 
     public static void main(String[] args) {
-        String ipBroker = "";
-        if (args.length > 0) ipBroker = args[0];
-
-        if (ipBroker.isEmpty()) ipBroker = "127.0.0.1:90";
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingrese el ip del broker: ");
+        String ipBroker = scanner.nextLine();
 
         Client.setInstance(ipBroker);
         String servers = Client.getInstance().listarServidores();
-        System.out.println("Servicios activos :" + servers);
+        System.out.println("Servicios activos: " + servers);
 
         launch();
     }

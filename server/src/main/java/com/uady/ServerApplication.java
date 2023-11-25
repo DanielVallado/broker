@@ -9,17 +9,13 @@ public class ServerApplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Escribe la ip del broker:");
+        System.out.print("Escribe el puerto para el server: ");
+        int port = scanner.nextInt();
+        scanner.nextLine();
+        System.out.print("Escribe la ip del broker: ");
         String ipBroker = scanner.nextLine().trim();
-        System.out.println(ipBroker);
-
-        int port = 0;
-
-        if (args.length > 0)
-            port = Integer.parseInt(args[0]);
 
         if (port == 0) port = 91;
-
         if (ipBroker.isEmpty()) ipBroker = "127.0.0.1:90";
 
         final int MAX_THREADS = 10;

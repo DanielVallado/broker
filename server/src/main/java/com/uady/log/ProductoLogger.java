@@ -6,7 +6,7 @@ import java.util.List;
 
 public class ProductoLogger {
 
-    private static final String LOGS_FILE_PATH = "C:\\Users\\danie\\OneDrive - Universidad Autonoma de Yucatan\\LIS\\LIS - Quinto Semestre\\Aquitectura de Software\\ADA 9 - Broker\\server\\src\\main\\java\\com\\uady\\log\\logs.txt";
+    private static final String LOGS_FILE_PATH = "logs/logs.txt";
 
     public static void log(String message) {
         MyFileHandler.writeFile(LOGS_FILE_PATH, message);

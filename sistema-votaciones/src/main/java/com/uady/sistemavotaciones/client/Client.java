@@ -18,8 +18,8 @@ import java.util.List;
 public class Client {
 
     private static Client client;
-    private final String brokerIp;
-    private final int brokerPort;
+    private static String brokerIp;
+    private static int brokerPort;
 
     public static void setInstance(String brokerIp) {
         if (client == null) {
@@ -37,8 +37,8 @@ public class Client {
     }
 
     private Client(int brokerPort, String brokerIp) {
-        this.brokerPort = brokerPort;
-        this.brokerIp = brokerIp;
+        Client.brokerPort = brokerPort;
+        Client.brokerIp = brokerIp;
     }
 
     public String sendJson(JsonObject json) {
@@ -66,8 +66,8 @@ public class Client {
             }
             """;
         JsonObject jsonObject = JsonParser.parseString(message).getAsJsonObject();
-
-        JsonObject response = JsonParser.parseString(sendJson(jsonObject)).getAsJsonObject();
+        String responseString = sendJson(jsonObject);
+        JsonObject response = JsonParser.parseString(responseString).getAsJsonObject();
 
         List<Producto> productList = new ArrayList<>();
         int responseNumber = response.get("respuestas").getAsInt() - 1; // Para no contar el primer valor que es el servicio
